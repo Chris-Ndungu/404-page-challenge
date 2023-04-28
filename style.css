@@ -31,12 +31,19 @@ h2 {
 button {
     width: 216px;
     height: 68px;
-    background-color: black;
+    background-color: #000000;
     color: white;
     font-weight: 700;
+    border: transparent;
+    cursor: pointer;
 
     font-size: 14px;
     font-family: inherit;
+}
+
+button:hover,
+button:focus {
+    background-color: #333;
 }
 
 p {
